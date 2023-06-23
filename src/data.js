@@ -24,6 +24,10 @@ export const category = [
         image: import.meta.env.VITE_URL + "pizza/karisik_pizza.jpg"
     },
     {
+        name: "Dondurma",
+        image: import.meta.env.VITE_URL + "dondurma/magnum-classic.jpg"
+    },
+    {
         name: "Aperatif",
         image: import.meta.env.VITE_URL + "aperatif/meyve_tabagi.jpg"
     },
@@ -289,6 +293,66 @@ export const menu = [
         ]
     },
     {
+        title: "Dondurma",
+        description: "Dondurma çeşitlerimizi görmek için tıklayınız.",
+        items: [
+            {
+                name: "Twister",
+                description: "",
+                price: 40,
+                image: import.meta.env.VITE_URL + "dondurma/twister.jpg"
+            },
+            {
+                name: "Cornetto Oreo",
+                description: "",
+                price: 55,
+                image: import.meta.env.VITE_URL + "dondurma/cornetto-oreo.jpg"
+            },
+            {
+                name: "Cornetto Classic",
+                description: "",
+                price: 55,
+                image: import.meta.env.VITE_URL + "dondurma/cornetto-classic.jpg"
+            },
+            {
+                name: "Cornetto Antep",
+                description: "",
+                price: 55,
+                image: import.meta.env.VITE_URL + "dondurma/cornetto-antep.jpg"
+            },
+            {
+                name: "Nugger",
+                description: "",
+                price: 50,
+                image: import.meta.env.VITE_URL + "dondurma/nugger.jpg"
+            },
+            {
+                name: "Magnum Classic",
+                description: "",
+                price: 75,
+                image: import.meta.env.VITE_URL + "dondurma/magnum-classic.jpg"
+            },
+            {
+                name: "Magnum Badem",
+                description: "",
+                price: 75,
+                image: import.meta.env.VITE_URL + "dondurma/magnum-badem.jpg"
+            },
+            {
+                name: "Magnum Beyaz",
+                description: "",
+                price: 75,
+                image: import.meta.env.VITE_URL + "dondurma/magnum-beyaz.jpg"
+            },
+            {
+                name: "Magnum Mini 6'lı",
+                description: "",
+                price: 250,
+                image: import.meta.env.VITE_URL + "dondurma/magnum-mini.jpg"
+            }
+        ]
+    },
+    {
         title: "Aperatif",
         description: "Aperatif çeşitlerimizi görmek için tıklayınız.",
         items: [
@@ -333,6 +397,18 @@ export const menu = [
                 description: "",
                 price: 60,
                 image: import.meta.env.VITE_URL + "soguk-icecekler/kivi_limonata.jpg"
+            },
+            {
+                name: "Narlı Limonata",
+                description: "",
+                price: 60,
+                image: import.meta.env.VITE_URL + "soguk-icecekler/narli-limonata.jpg"
+            },
+            {
+                name: "Limonata Meyve Şöleni",
+                description: "",
+                price: 70,
+                image: import.meta.env.VITE_URL + "soguk-icecekler/meyve-limonata.jpg"
             },
             {
                 name: "Ice Tea",
@@ -441,6 +517,36 @@ export const menu = [
                 description: "",
                 price: 65,
                 image: import.meta.env.VITE_URL + "soguk-kahveler/ice-caramellatte.jpg"
+            },
+            {
+                name: "Nescafe Exp. Original",
+                description: "",
+                price: 45,
+                image: import.meta.env.VITE_URL + "soguk-kahveler/nescafe-original.jpg"
+            },
+            {
+                name: "Nescafe Exp. Black Roast",
+                description: "",
+                price: 45,
+                image: import.meta.env.VITE_URL + "soguk-kahveler/nescafe-black.jpg"
+            },
+            {
+                name: "Nescafe Exp. Choco",
+                description: "",
+                price: 45,
+                image: import.meta.env.VITE_URL + "soguk-kahveler/nescafe-choco.jpg"
+            },
+            {
+                name: "Nescafe Exp. Caramel",
+                description: "",
+                price: 45,
+                image: import.meta.env.VITE_URL + "soguk-kahveler/nescafe-caramel.jpg"
+            },
+            {
+                name: "Nescafe Exp. Vanilya",
+                description: "",
+                price: 45,
+                image: import.meta.env.VITE_URL + "soguk-kahveler/nescafe-vanilya.jpg"
             }
         ]
     },
